@@ -5,6 +5,7 @@ import RepoList from '../repos/RepoList'
  function GitHub() {
   const [user, setUser] = useState([])
   const [repos, setRepos] = useState([])
+  
 
   useEffect(() => {
     getGitHubProfile()
@@ -12,7 +13,7 @@ import RepoList from '../repos/RepoList'
   }, [])
 
   const getGitHubProfile = async() => {
-    const response = await fetch(`http://api.github.com/users/noybendavid`)
+    const response = await fetch(`https://api.github.com/users/noybendavid`)
      
     const data = await response.json()
 
@@ -20,7 +21,7 @@ import RepoList from '../repos/RepoList'
   }
 
   const getGitHubRepos = async() => {
-    const response = await fetch(`http://api.github.com/users/noybendavid/repos`)
+    const response = await fetch(`https://api.github.com/users/noybendavid/repos`)
      
     const data = await response.json()
 
