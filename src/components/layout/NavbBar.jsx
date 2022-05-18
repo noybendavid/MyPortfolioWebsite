@@ -16,7 +16,7 @@ function NavBar() {
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="fs-4">
         <Link to='/' onClick={() => setExpanded(false)} className='text-decoration-none m-2 w3-animate-left'>Home</Link>
-        <Link to='/about' onClick={() => setExpanded(false)} className='text-decoration-none m-2 w3-animate-left'>About</Link>
+        <Link to='/about' onClick={() => setExpanded(false)} className='text-decoration-none m-2 w3-animate-left'>CV</Link>
         <Link to='/github'onClick={() => setExpanded(false)} className='text-decoration-none m-2 w3-animate-left'>GitHub</Link>
     </Nav>
   </Navbar.Collapse>

@@ -11,7 +11,7 @@ function About() {
               <h2>Education</h2>
               <h3>Computer Science | B.Sc.HIT</h3>
               </div>
-              <ul className="font-monospace mt-3">
+              <ul className="font-monospace mt-3 text-start">
                 <li>Working knowledge in Android app Development</li>
                 <li>Experience in modern web development practices and methodologies</li>
                 <li>Knowledge in testing and debugging processes</li>
@@ -25,7 +25,8 @@ function About() {
             <div className="card-body">
             <div className="card-title myFont">
               <h2>Profile</h2></div>
-            <p className="font-monospace">Innovative Software Engineer with ability to quickly grasp new languages, systems, and frameworks.
+            <p className="font-monospace">
+            Innovative Software Engineer with ability to quickly grasp new languages, systems, and frameworks.
             Experienced in developing in Java, C# , Python, C++.
             Able to effectively prioritize, multitask, and perform
             well in a fast-paced environment.
