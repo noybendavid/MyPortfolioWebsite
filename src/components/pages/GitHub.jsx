@@ -46,9 +46,9 @@ import RepoList from '../repos/RepoList'
 
     <div className='container w3-animate-opacity myFont mt-3'>
       <div className='row'>
-        <div className='col-lg-3'>
+        <div className='col-lg-3 '>
             <img src={avatar_url} alt='profile' className='img-fluid rounded shadow-lg w3-opacity
-            float-start'/>
+            float-start imageResize'/>
         </div>
         <div className='col-lg-9'>
           <div className='mb-6'>
