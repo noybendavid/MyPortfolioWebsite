@@ -90,7 +90,7 @@ import RepoList from '../repos/RepoList'
           <div className='card-title mt-3 text-secondary'>
           <h4>
           Followers
-          <FaUsers className='m-2 '/>
+          <FaUsers className='m-2 display-5 float-end'style={{color: 'rgb(204, 0, 102)'}}/>
           </h4>
           </div>
           <div className='card-body myFont-h1'>
@@ -105,7 +105,7 @@ import RepoList from '../repos/RepoList'
           <div className='card-title mt-3 text-secondary'>
           <h4>
           Following
-          <FaUserFriends className='m-2 '/>
+          <FaUserFriends className='m-2 display-5 float-end' style={{color: 'rgb(204, 0, 102)'}}/>
           </h4>
           </div>
           <div className='card-body myFont-h1'>
@@ -119,7 +119,7 @@ import RepoList from '../repos/RepoList'
           <div className='card-title mt-3 text-secondary'>
           <h4>
           Public Repos
-          <FaCodepen className='m-2 '/>
+          <FaCodepen className='m-2 display-5 float-end'style={{color: 'rgb(204, 0, 102)'}}/>
           </h4>
           </div>
           <div className='card-body myFont-h1'>
@@ -133,7 +133,7 @@ import RepoList from '../repos/RepoList'
           <div className='card-title mt-3 text-secondary'>
           <h4>
           Public Gists
-          <FaStore className='m-2 '/>
+          <FaStore className='m-2 display-5 float-end'style={{color: 'rgb(204, 0, 102)'}}/>
           </h4>
           </div>
           <div className='card-body myFont-h1'>
