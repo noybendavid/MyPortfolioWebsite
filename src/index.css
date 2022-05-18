@@ -36,7 +36,7 @@ body {
 
 .showNav {
   z-index: 1;
-  margin-bottom: 40px;
+  padding: 20px;
 }
 
 .badge-success {

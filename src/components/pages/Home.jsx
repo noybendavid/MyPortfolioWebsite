@@ -11,10 +11,11 @@ function Home() {
     loadFull(main);
 }, [])
 
+
   return (
     <>        
     <Particles className='particles' options={particlesOptions} init={particlesInit} />
-    <div className='container text-center w3-animate-opacity'>
+    <div className='container text-center w3-animate-opacity' >
       <div className="wrapper">
         <img src={avatar} alt="avatar" className='avatar' />
         <h1 className='myFont-h1'>Noy Ben-David</h1>

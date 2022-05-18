@@ -1,9 +1,10 @@
 function About() {
+
   return (
     <div className="container w3-animate-opacity mt-3">
 
-      <div class="row">
-        <div class="col-lg-6 d-flex">
+      <div className="row">
+        <div className="col-lg-6 d-flex">
           <div className="card styleCard shadow-lg mx-auto">
             <div className="card-body">
             <div className="card-title myFont">
@@ -19,7 +20,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div class="col-lg-6 d-flex">
+        <div className="col-lg-6 d-flex">
           <div className="card styleCard shadow-lg mx-auto">
             <div className="card-body">
             <div className="card-title myFont">
@@ -38,8 +39,8 @@ function About() {
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-lg-6 d-flex">
+      <div className="row">
+        <div className="col-lg-6 d-flex">
           <div className="card styleCard shadow-lg mx-auto">
             <div className="card-body">
             <div className="card-title myFont">
@@ -70,7 +71,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div class="col-lg-6 d-flex">
+        <div className="col-lg-6 d-flex">
           <div className="card styleCard shadow-lg mx-auto">
             <div className="card-body">
             <div className="card-title myFont">
