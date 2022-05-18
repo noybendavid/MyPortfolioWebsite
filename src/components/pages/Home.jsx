@@ -14,7 +14,7 @@ function Home() {
 }, [])
 
 const isMobile  = useMediaQuery({
-  query: '(max-width: 350px)'
+  query: '(max-width: 440px)'
 })
 
 
@@ -52,7 +52,6 @@ const isMobile  = useMediaQuery({
         </a>
 
         {isMobile &&  
-
         <a className='myFont'
            href='tel:+972-052-444-8457'
            data-bs-toggle="tooltip" data-bs-placement="top" title="Contact With Phone"
